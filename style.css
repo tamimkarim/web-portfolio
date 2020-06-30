@@ -1,16 +1,34 @@
 
 body{
-   background-color: ghostwhite;
+    
+   background-color: white;
    margin: 0px;
 }
 h1{
-    font-size: 30px;
+    font-size: 35px;
     font-family: 'Notable' , sans-serif;
+}
+h2{
+    font-size: 40px;
+    font-family: 'Notable' , sans-serif;
+}
+h3{
+    text-align: left;
+}
+a{
+    color:dimgray;
+}
+p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: dimgray;
 }
 .name-highlight{
    color: darkorange ; 
 }
 .first{
+   
     width: 40%;
     float: left;
     margin-left: 5%;
@@ -20,10 +38,73 @@ h1{
     width: 95%;
 }
 .top-banner{
-    background-image:url("images/top-banner.png") ;
+    background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
+    background-position:left ;
+    
 
 }
 section{
     height: 500px;
+    padding-bottom: 150px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightSalmon,tomato);
+    padding:10px 18px;
+    border-radius: 7px;
+    color: white;
+    font-weight: bold;
+
+}
+.dream{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    padding: 10px 10PX 10PX 10PX;
+    border-radius: 6px;
+    height: 80%;
+    overflow: hidden;
+}
+.newfont{
+    font-family: 'Oxygen', sans-serif;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:left ;
+}
+#full-stack{
+ 
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightSalmon, tomato);
+    border-image-slice: 1;
+}
+#junior{
+  
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 10px;
+
+}
+a:hover{
+    background-color:cyan;
+}
+.link-button:hover{
+   font-size: 23px;
+  
+}
+.name-highlight:hover{
+    font-size: 37px;
+}
+body{
+   /* background: linear-gradient(-45deg,#EE7752, #E73C7E, #23A6D5 )*/
+   background-color: lightcyan;
 }
