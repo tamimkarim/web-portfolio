@@ -1,6 +1,7 @@
 
 body{
    background-color: ghostwhite;
+   margin: 0px;
 }
 h1{
     font-size: 30px;
@@ -16,5 +17,13 @@ h1{
     padding-left: 5%;
 }
 .first img{
-    width: 100%;
+    width: 95%;
+}
+.top-banner{
+    background-image:url("images/top-banner.png") ;
+    background-repeat: no-repeat;
+
+}
+section{
+    height: 500px;
 }
